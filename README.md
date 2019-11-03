@@ -31,7 +31,7 @@ Data Cleanup & Analysis:
         
 3. Load the Data: 
 
-        a. Using Postgres, create the database and raw tables for data to be loaded into.
+        a. Using Postgres, create the database (spotify_db) and raw tables for data to be loaded into.
         b. Run the python file to create the connection, confirm the tables and load the dataframes into the database.
         
 4. Create a final technical report with the above information and steps required to reproduce your ETL process. 
