@@ -3,8 +3,8 @@
 Project Title: Using ETL to determine the most popular artist and songs of 2018
  
 Team Members:
-        	Addison Brown
-        	Ashley Cleveland
+        	Addison Brown,
+        	Ashley Cleveland,
         	Jessica Jordan
  
 Project Description/Outline:
