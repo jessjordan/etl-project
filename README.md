@@ -3,8 +3,9 @@
 Project Title: Using ETL to determine the most popular artist and songs of 2018
  
 Team Members:
-        	Addison Brown,
-        	Ashley Cleveland,
+
+        	Addison Brown
+        	Ashley Cleveland
         	Jessica Jordan
          
  
@@ -13,6 +14,7 @@ This project is to explore one of the most popular music streaming platforms, Sp
  
  
 Sources of Data: 
+
         Kaggle: Spotify Track DB
         Kaggle: Top Spotify Tracks of 2018
 
