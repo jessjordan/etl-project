@@ -35,3 +35,31 @@ Data Cleanup & Analysis:
         b. Run the python file to create the connection, confirm the tables and load the dataframes into the database.
         
 4. Create a final technical report with the above information and steps required to reproduce your ETL process. 
+
+Extract
+Read the data from the SpotifyFeatures.csv and top2018.csv files
+
+Transform
+We removed all of the columns from the SpotifyFeatures.csv except artist_name, track_name, track_id, and popularity, danceability, valence. We then cleaned and aggregated the data placing them in the following order: id, song, artist, popularity, danceability, and valence
+We removes all of the columns from the top2018.csv except artist_name, track_name, track_id, danceability, and valence. We then cleaned and aggregated the data placing them in the following order: id, song, artist, danceability, and valence
+
+Load
+Using psycopg and sqlalchemy we loaded the data into our tables using the “to_sql” function. Our database schema includes the following tables:
+
+
+features 
+primary key - id, 
+song, artist, 
+Popularity,
+danceability
+Valence
+
+
+
+top2018 
+primary key - id
+Song
+Artist
+Danceability
+Valence
+
